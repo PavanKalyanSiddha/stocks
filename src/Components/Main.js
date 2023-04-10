@@ -2,7 +2,7 @@ import React from 'react'
 import { BsCaretRight } from 'react-icons/bs';
 import { useState } from 'react';
 import { CgProfile } from 'react-icons/cg';
-import { BsFillBellFill } from 'react-icons/bs';
+import { BsBell } from 'react-icons/bs';
 import { AiOutlineMessage } from 'react-icons/ai';
 import { FiSearch } from 'react-icons/fi';
 import { GiSelfLove } from 'react-icons/gi';
@@ -35,7 +35,7 @@ const Main = () => {
           <div className=' flex gap-2'>
           <div className='text-white p-2 text-[26px]'><CgProfile /></div>
         <div className='text-white my-2'>Hello,User</div> 
-        <div className='text-white p-2 text-[26px]'><BsFillBellFill /></div>
+        <div className='text-white p-2 text-[26px]'><BsBell /></div>
           </div>
           <div className='border m-2 border-gray-400  w-full '></div>
     <div className='flex'>       <div className='text-white p-2 text-[20px]'>< AiOutlineMessage/></div>
